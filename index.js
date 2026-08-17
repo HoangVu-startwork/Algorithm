@@ -18,18 +18,22 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Nhập các số trong mảng: ", (input) => {
+// nhập mảng
+// rl.question("Nhập các số trong mảng: ", (input) => {
 
-  // Chuyển chuỗi nhập vào thành mảng số
-  const arr = input
-      .split(" ")
-      .map(Number);
+//   // Chuyển chuỗi nhập vào thành mảng số
+//   const arr = input
+//       .split(" ")
+//       .map(Number);
 
-  console.log("Mảng:", arr);
+//   console.log("Mảng:", arr);
 
-  const result = ImportfindMax(arr);
+//   const result = findMax(arr);
 
-  console.log("Số lớn nhất:", result);
+//   console.log("Số lớn nhất:", result);
 
-  rl.close();
-});
+//   rl.close();
+// });
+
+// nhập số lượng trong mảng
+ImportfindMax()
