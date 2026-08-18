@@ -9,7 +9,7 @@ const ImportfindMax = require("./algorithms/ImportfindMax");
 
 // Tìm số nhỏ nhất trong mảng
 const findMin = require("./the_smallest_number/findMin")
-
+const ImportfindMin = require("./the_smallest_number/ImportfindMin");
 
 // file findMax
 // const arr = [10, 5, 20, 8, 30, 15];
@@ -45,6 +45,8 @@ const rl = readline.createInterface({
 
 
 // Số nhỏ nhất
-const arr = [10, 5, 20, 8, 30, 15];
-const result = findMin(arr);
-console.log("Số nhỏ nhất:", result);
+// const arr = [10, 5, 20, 8, 30, 15];
+// const result = findMin(arr);
+// console.log("Số nhỏ nhất:", result);
+
+ImportfindMin()
