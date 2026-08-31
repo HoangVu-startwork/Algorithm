@@ -17,6 +17,11 @@ const ImportfindMin = require("./the_smallest_number/ImportfindMin");
 // console.log("Số lớn nhất:", result);
 
 
+// Event_Loop
+require("./Event_Loop/Evenr_loop");
+
+
+
 // file InportindMax.js
 const rl = readline.createInterface({
   input: process.stdin,
@@ -49,4 +54,4 @@ const rl = readline.createInterface({
 // const result = findMin(arr);
 // console.log("Số nhỏ nhất:", result);
 
-ImportfindMin()
+// ImportfindMin()
